@@ -67,8 +67,42 @@
          <button class='btn btn-success'>Facebook!</button>
         </div>
       </div> 
-      <div class='flex-box-container-1'>
-        <button class="btn btn-success"  onclick='reload()' >Reload</button>
+   
+    </div >
+   
+    <div class="container-1">
+      <h2>Challlenge 5: Blackjack</h2>
+      <h3><span id='Blackjack-result'>Let's play</span></h3>
+
+      <div class="flex-blackjack-row-1">
+        <div id='you-box'>
+          <h2>You:<span id='your-blackjack-result'>0</span></h2>
+        </div>
+        <div  id='dealer-box'>
+          <h2>Dealer: <span id='dealer-blackjack-result'>0</span></h2>
+        </div>
+      </div>
+      <div class='flex-blackjack-row-2'>
+         <div>
+           <button class="btn-lg btn-primary mr-2" id='blackjack-hit-button'>HIT</button>
+           <button class="btn-lg btn-warning mr-2" id='blackjack-stand-button'>STAND</button>
+           <button class="btn-lg btn-danger mr-2" id='blackjack-deal-button'>DEAL</button>
+         </div>
+        </div>
+         <div class='flex-blackjack-row-3'>
+            <table >
+              <tr>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+              </tr>
+              <tr>
+                <td><span id='wins'>0</span></td>
+                <td><span id='losses'>0</span></td>
+                <td><span id='drows'>0</span></td>
+              </tr>
+            </table>
+         
         </div>
     </div>
       
